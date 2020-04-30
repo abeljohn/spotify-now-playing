@@ -6,7 +6,7 @@ written in Obj-C, designed for macOS 10.14+
 
 ## Installation
 
-Download and unzip the [latest release here](https://github.com/abeljohn/spotify-now-playing/releases/latest), or download and compile the source in Xcode.
+Download and unzip the [latest release](https://github.com/abeljohn/spotify-now-playing/releases/latest) ([direct download](https://github.com/abeljohn/spotify-now-playing/releases/latest/download/SpotifyNowPlaying.app.zip)), or download and compile the source in Xcode.
 
 *Note: to bypass the warning for unidentified developer go to System Preferences > Security & Privacy > General > Open Anyway.*
 
