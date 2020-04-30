@@ -20,7 +20,12 @@ Song name in menubar
 - opening menubar application shows album art, full song name, artist, and album
 - alternatively, the song name can be hidden to reduce menubar clutter
 
+![menubar screenshot](screenshots/menubar.png "Song name displayed with playing indicator")
+
+![application screenshot](screenshots/app.png "Expanded menubar application")
+
 Song notifications
 - optional notifications when a new song comes on
 - ability to skip songs from notification, or click notification to bring up spotify
 
+![notification screenshot](screenshots/notification.png "Song notification")
