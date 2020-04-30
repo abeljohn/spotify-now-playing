@@ -120,7 +120,7 @@ static NSString * const SNPFirstLoginKey = @"SNPFirstLogin";
     [mainMenu addItemWithTitle:@"Quit" action:@selector(quit) keyEquivalent:@"q"];
     [mainMenu addItem:[NSMenuItem separatorItem]];
     [mainMenu addItemWithTitle:@"Spotify Now Playing" action:nil keyEquivalent:@""];
-    NSMenuItem *versionMenuItem = [[NSMenuItem alloc] initWithTitle:[NSString stringWithFormat:@"v. %@ by Abel John", appVersion] action:nil keyEquivalent:@""];
+    NSMenuItem *versionMenuItem = [[NSMenuItem alloc] initWithTitle:[NSString stringWithFormat:@"v%@ by Abel John", appVersion] action:nil keyEquivalent:@""];
     versionMenuItem.toolTip = [NSString stringWithFormat:@"Build %@", appBuild];
     [mainMenu addItem:versionMenuItem];
     [self.statusItem setMenu:mainMenu];
