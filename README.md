@@ -1,4 +1,5 @@
 # Spotify Now Playing
+![logo](Spotify%20Now%20Playing/Assets.xcassets/AppIcon.appiconset/snpicon%20copy%205.png)
 
 macOS menubar application that enables Spotify playback control and song notifications
 
