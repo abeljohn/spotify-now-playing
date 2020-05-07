@@ -131,7 +131,10 @@ static NSString * const SNPFirstLoginKey = @"SNPFirstLogin";
         self.currentSongName = [[NSString alloc] initWithString:[[self executeAppleScript:@"get name of current track"] stringValue]];
         if (![[NSUserDefaults standardUserDefaults] boolForKey:SNPMenuIconPreferenceKey]){
             self.statusItem.button.title = ([[NSUserDefaults standardUserDefaults] boolForKey:SNPPlayerStatePreferenceKey] && self.playing)?[NSString stringWithFormat:@"%@ ►",[self shortenedSongName]]:[self shortenedSongName];
-            self.statusItem.button.image = nil;
+            if (self.statusItem.button.title != nil && ![self.statusItem.button.title isEqualToString:(@"")] )
+                self.statusItem.button.image = nil;
+            else
+                self.statusItem.button.image = self.menubarImage;
         }
         else {
             self.statusItem.button.title = @"";
@@ -220,7 +223,10 @@ static NSString * const SNPFirstLoginKey = @"SNPFirstLogin";
             self.currentSongName = [[aNotification userInfo] objectForKey:@"Name"];
             if (![[NSUserDefaults standardUserDefaults] boolForKey:SNPMenuIconPreferenceKey]){
                 self.statusItem.button.title = ([[NSUserDefaults standardUserDefaults] boolForKey:SNPPlayerStatePreferenceKey] && self.playing)?[NSString stringWithFormat:@"%@ ►",[self shortenedSongName]]:[self shortenedSongName];
-                self.statusItem.button.image = nil;
+                if (self.statusItem.button.title != nil && ![self.statusItem.button.title isEqualToString:(@"")] )
+                    self.statusItem.button.image = nil;
+                else
+                    self.statusItem.button.image = self.menubarImage;
             }
             self.songMenuItem.title = self.currentSongName;
             self.artistMenuItem.title = [[aNotification userInfo] objectForKey:@"Artist"];

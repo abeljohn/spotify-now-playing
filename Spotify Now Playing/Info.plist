@@ -29,7 +29,7 @@
 	<key>NSAppleEventsUsageDescription</key>
 	<string>Gets current track data from Spotify and controls playback. Sets login item status.</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2019 Abel John. All rights reserved.</string>
+	<string>Copyright © 2020 Abel John.</string>
 	<key>NSMainStoryboardFile</key>
 	<string>Main</string>
 	<key>NSPrincipalClass</key>
