@@ -1,5 +1,0 @@
-language: objective-c
-osx_image: xcode12.2
-xcode_project: Spotify Now Playing.xcodeproj
-xcode_scheme: Spotify Now Playing
-xcode_sdk: macosx11.0
