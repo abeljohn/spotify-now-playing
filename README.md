@@ -9,7 +9,7 @@ written in Obj-C, designed for macOS 10.14+
 
 Download and unzip the [latest release](https://github.com/abeljohn/spotify-now-playing/releases/latest) ([direct download](https://github.com/abeljohn/spotify-now-playing/releases/latest/download/SpotifyNowPlaying.app.zip)), or download and compile the source in Xcode.
 
-*Note: to bypass the warning for unidentified developer go to System Preferences > Security & Privacy > General > Open Anyway.*
+*Note: to bypass the warning for unidentified developer go to System Preferences > Security & Privacy > General > Open Anyway. Alternatively, right click on the app in Finder, and select Open.*
 
 ## Features
 
@@ -21,12 +21,15 @@ Song name in menubar
 - opening menubar application shows album art, full song name, artist, and album
 - alternatively, the song name can be hidden to reduce menubar clutter
 
-![menubar screenshot](screenshots/menubar.png "Song name displayed with playing indicator")
+<img src="screenshots/menubar_11_light.png" alt="menubar screenshot light mode" title="Song name displayed with playing indicator" width="50%">
+<img src="screenshots/menubar_11_dark.png" alt="menubar screenshot dark mode" title="Song name displayed with playing indicator" width="50%">
 
-![application screenshot](screenshots/app.png "Expanded menubar application")
+<img src="screenshots/app_11_light.png" alt="application screenshot light mode" title="Expanded menubar application" width="50%">
+<img src="screenshots/app_11_dark.png" alt="application screenshot dark mode" title="Expanded menubar application" width="50%">
 
 Song notifications
 - optional notifications when a new song comes on
 - ability to skip songs from notification, or click notification to bring up spotify
 
-![notification screenshot](screenshots/notification.png "Song notification")
+<img src="screenshots/notification_11_light.png" alt="notification screenshot light mode" title="Song notification" width="50%">
+<img src="screenshots/notification_11_dark.png" alt="notification screenshot dark mode" title="Song notification" width="50%">
