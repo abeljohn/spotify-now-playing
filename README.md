@@ -21,15 +21,15 @@ Song name in menubar
 - opening menubar application shows album art, full song name, artist, and album
 - alternatively, the song name can be hidden to reduce menubar clutter
 
-<img src="screenshots/menubar_11_light.png" alt="menubar screenshot light mode" title="Song name displayed with playing indicator" width="50%">
-<img src="screenshots/menubar_11_dark.png" alt="menubar screenshot dark mode" title="Song name displayed with playing indicator" width="50%">
+<img src="screenshots/menubar_11_light.png" alt="menubar screenshot light mode" title="Song name displayed with playing indicator" width="40%">
+<img src="screenshots/menubar_11_dark.png" alt="menubar screenshot dark mode" title="Song name displayed with playing indicator" width="40%">
 
-<img src="screenshots/app_11_light.png" alt="application screenshot light mode" title="Expanded menubar application" width="50%">
-<img src="screenshots/app_11_dark.png" alt="application screenshot dark mode" title="Expanded menubar application" width="50%">
+<img src="screenshots/app_11_light.png" alt="application screenshot light mode" title="Expanded menubar application" width="40%">
+<img src="screenshots/app_11_dark.png" alt="application screenshot dark mode" title="Expanded menubar application" width="40%">
 
 Song notifications
 - optional notifications when a new song comes on
 - ability to skip songs from notification, or click notification to bring up spotify
 
-<img src="screenshots/notification_11_light.png" alt="notification screenshot light mode" title="Song notification" width="50%">
-<img src="screenshots/notification_11_dark.png" alt="notification screenshot dark mode" title="Song notification" width="50%">
+<img src="screenshots/notification_11_light.png" alt="notification screenshot light mode" title="Song notification" width="40%">
+<img src="screenshots/notification_11_dark.png" alt="notification screenshot dark mode" title="Song notification" width="40%">
