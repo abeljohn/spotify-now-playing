@@ -129,6 +129,7 @@ static NSString * const SNPFirstLoginKey = @"SNPFirstLogin";
         self.trackID = [[NSString alloc] initWithString:[[self executeAppleScript:@"get id of current track"] stringValue]];
         self.playing = [[[self executeAppleScript:@"get player state"] stringValue] isEqualToString:@"kPSP"];
         self.currentSongName = [[NSString alloc] initWithString:[[self executeAppleScript:@"get name of current track"] stringValue]];
+        // TODO: if Spotify hasn't yet loaded the song name, this will be blank. we could wait a couple seconds and fetch name using applescript
         if (![[NSUserDefaults standardUserDefaults] boolForKey:SNPMenuIconPreferenceKey]) {
             self.statusItem.button.title = ([[NSUserDefaults standardUserDefaults] boolForKey:SNPPlayerStatePreferenceKey] && self.playing)?[NSString stringWithFormat:@"%@ ►",[self shortenedSongName]]:[self shortenedSongName];
             [self preventBlankTitle];
@@ -307,6 +308,7 @@ static NSString * const SNPFirstLoginKey = @"SNPFirstLogin";
     }
     [[NSUserNotificationCenter defaultUserNotificationCenter] removeAllDeliveredNotifications];
     if ([self.currentSongName length] == 0) {
+        // don't fire notification if we don't know the song name yet
         return;
     }
     
@@ -440,6 +442,7 @@ static NSString * const SNPFirstLoginKey = @"SNPFirstLogin";
     if ([self.statusItem.button.title length] != 0) {
         self.statusItem.button.image = nil;
     } else {
+        // if the menubar has no text then display the icon so the user can see where the app is
         self.statusItem.button.image = self.menubarImage;
     }
 }
