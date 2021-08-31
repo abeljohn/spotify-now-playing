@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5CA8D45228E0A82004097C7 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA8D44228E0A82004097C7 /* PFMoveApplication.m */; };
+		B5CA8D45228E0A82004097C7 /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA8D44228E0A82004097C7 /* PFMoveApplication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B5DA5B73228BC6EE00900729 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA5B72228BC6EE00900729 /* AppDelegate.m */; };
 		B5DA5B76228BC6EE00900729 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA5B75228BC6EE00900729 /* ViewController.m */; };
 		B5DA5B78228BC6EF00900729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DA5B77228BC6EF00900729 /* Assets.xcassets */; };
@@ -448,7 +448,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 19;
+				CURRENT_PROJECT_VERSION = 20;
 				DEVELOPMENT_TEAM = N8GW2FFNAG;
 				INFOPLIST_FILE = "Spotify Now Playing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,7 +456,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.1.2;
+				MARKETING_VERSION = 1.1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abeljohn.SNP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -469,7 +469,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 19;
+				CURRENT_PROJECT_VERSION = 20;
 				DEVELOPMENT_TEAM = N8GW2FFNAG;
 				INFOPLIST_FILE = "Spotify Now Playing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -477,7 +477,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 1.1.2;
+				MARKETING_VERSION = 1.1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abeljohn.SNP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
