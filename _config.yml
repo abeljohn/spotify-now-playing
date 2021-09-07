@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+custom_links:
+  show: true
+  latest_release: https://github.com/abeljohn/spotify-now-playing/releases/latest
+  direct_download: https://github.com/abeljohn/spotify-now-playing/releases/latest/download/SpotifyNowPlaying.app.zip
