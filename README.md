@@ -3,13 +3,15 @@
 
 macOS menubar application that enables Spotify playback control and song notifications
 
-written in Obj-C, designed for macOS 10.14+
+No Spotify login needed! Spotify Now Playing accesses the Spotify desktop app directly. (A public Spotify API is used to retrieve album artwork, but Spotify Now Playing is capable of running fully offline)
+
+Written in Obj-C, designed for macOS 10.14+
 
 ## Installation
 
 Download and unzip the [latest release](https://github.com/abeljohn/spotify-now-playing/releases/latest) ([direct download](https://github.com/abeljohn/spotify-now-playing/releases/latest/download/SpotifyNowPlaying.app.zip)), or download and compile the source in Xcode.
 
-*Note: to bypass the warning for unidentified developer go to System Preferences > Security & Privacy > General > Open Anyway. Alternatively, right click on the app in Finder, and select Open.*
+*Note: to bypass the warning for unidentified developer right click on the app in Finder, and select Open. Alternatively, go to System Preferences > Security & Privacy > General > Open Anyway. Or better yet, read through the source code and build it yourself!*
 
 ## Features
 
